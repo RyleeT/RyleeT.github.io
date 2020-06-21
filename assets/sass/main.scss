@@ -390,6 +390,26 @@
 		}
 	}
 
+/* Images */
+
+	ul.images {
+		cursor: default;
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			float:left;
+		}
+
+		img {
+			width: 2em;
+			height: 2em;
+			line-height: 2em;
+			text-align: center;
+			border: 0;
+		}
+	}
+
 /* Form */
 
 	form {
@@ -492,7 +512,7 @@
 	}
 
 /* Button */
-
+s
 	input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
@@ -824,6 +844,16 @@
 					}
 				}
 			}
+		
+		/* Icons */
+
+		ul.images {
+			li {
+				img {
+					width: 1.75em;
+				}
+			}
+		}
 
 	}
 
@@ -846,6 +876,16 @@
 			ul.icons {
 				li {
 					a {
+						width: 1.75em;
+					}
+				}
+			}
+
+		/* Images */
+
+			ul.images {
+				li {
+					img {
 						width: 1.75em;
 					}
 				}
@@ -948,6 +988,19 @@
 					font-size: 1.25em;
 				}
 			}
+		
+			
+		/* Images */
+
+			ul.images {
+				li {
+					img {
+						width: 1.75em;
+						font-size: 1.25em;
+					}
+				}
+			}
+					
 
 		/* Header */
 
@@ -1101,6 +1154,13 @@
 
 			ul.icons {
 				a {
+					width: 2em;
+					font-size: 1.25em;
+				}
+			}
+
+			ul.images {
+				img {
 					width: 2em;
 					font-size: 1.25em;
 				}
